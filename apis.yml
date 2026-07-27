@@ -1,8 +1,27 @@
 aid: hipcamp
 name: Hipcamp
-description: Hipcamp is a company surfaced as a portfolio company of a16z, bond-capital, slow-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Hipcamp is the #1 app to find and book campsites globally, with real-time availability
+  across more than 500,000 sites in the United States, Canada, Australia, and the United
+  Kingdom. Campers search national parks, state parks, RV resorts, and private land stays
+  (farms, ranches, vineyards) in one app, with filters, Pro map layers (BLM/USFS land, cell
+  coverage, dark skies), road-trip search, and free availability alerts. Hosts list and manage
+  campsites, sync calendars, and take weekly payouts. Hipcamp integrates with campground
+  reservation systems (ResNexus, Cloudbeds, Newbook, RMS, Bedful) but publishes no public
+  developer API — /api and /graphql are internal-only. Surfaced as an a16z / Bond Capital /
+  Slow Ventures portfolio company and profiled in the API Evangelist network.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://hipcamp-res.cloudinary.com/image/upload/c_fill,f_auto,g_auto,h_400,q_60,w_780/v1626916641/homepage/W15-2024/W15-USA-BEST-OF-HEADER.png
 url: https://raw.githubusercontent.com/api-evangelist/hipcamp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Camping
+- Travel
+- Booking
+- Reservations
+- Outdoors
+- Hospitality
+- Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +50,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hipcamp-domain-security.yml
+- type: LLMsTxt
+  url: llms/hipcamp-llms.txt
 - type: Website
   url: https://hipcamp.com
+- type: Blog
+  url: https://www.hipcamp.com/en-US/journal
+- type: Support
+  url: https://support.hipcamp.com/hc/en-us
+- type: SignUp
+  url: https://www.hipcamp.com/users/sign-up
+- type: TermsOfService
+  url: https://www.hipcamp.com/en-US/terms
+- type: PrivacyPolicy
+  url: https://www.hipcamp.com/en-US/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

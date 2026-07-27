@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of https://www.hipcamp.com/.well-known/*
+host: https://www.hipcamp.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  No .well-known discovery documents are published. Hipcamp exposes no public
+  developer API; /api and /graphql are internal-only (disallowed in robots.txt,
+  no public documentation). A real /llms.txt IS published (see llms/).
