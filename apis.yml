@@ -10,6 +10,17 @@ description: >-
   reservation systems (ResNexus, Cloudbeds, Newbook, RMS, Bedful) but publishes no public
   developer API — /api and /graphql are internal-only. Surfaced as an a16z / Bond Capital /
   Slow Ventures portfolio company and profiled in the API Evangelist network.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
